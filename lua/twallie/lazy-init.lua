@@ -31,3 +31,6 @@ require('lspconfig').tsserver.setup{}
 
 -- setup for c
 require('lspconfig').clangd.setup{}
+
+-- setup for rust
+require('lspconfig').rust_analyzer.setup{}
