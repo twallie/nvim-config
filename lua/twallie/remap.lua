@@ -3,10 +3,11 @@ local TAB_SIZE = 4
 vim.g.mapleader = " "
 
 -- show project tree on " pv"
-vim.keymap.set("n", "<leader>pv", ":NERDTree<CR>")
+vim.keymap.set("n", "<leader>pv", ":Neotree<CR>")
 
 -- terminal shiz
 vim.keymap.set("t", "<esc>", "<C-\\><C-n>") -- allow for esc to work normally while in terminal
+vim.keymap.set("n", "<leader>tt", ":belowright 10 split | term<CR>")
 
 -- getting my tabs right sheeeesh
 local set = vim.opt -- set options
