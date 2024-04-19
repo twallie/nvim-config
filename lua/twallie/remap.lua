@@ -15,5 +15,7 @@ set.tabstop = TAB_SIZE
 set.softtabstop = TAB_SIZE
 set.shiftwidth = TAB_SIZE
 
--- set relative line numbers
+
+-- set hybrid line numbers
 set.relativenumber = true
+set.number = true
