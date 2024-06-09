@@ -34,3 +34,12 @@ require('lspconfig').clangd.setup{}
 
 -- setup for rust
 require('lspconfig').rust_analyzer.setup{}
+
+-- setup for svelte
+require('lspconfig').svelte.setup{}
+
+-- setup for java
+require('lspconfig').java_language_server.setup{}
+
+-- setup for c#
+require'lspconfig'.csharp_ls.setup{}
